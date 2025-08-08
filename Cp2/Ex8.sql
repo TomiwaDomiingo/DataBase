@@ -1,0 +1,1 @@
+select SKU, SKUDescription from products WHERE QuantityOnHand = 0;

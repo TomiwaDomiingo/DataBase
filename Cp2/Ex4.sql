@@ -1,0 +1,1 @@
+select * FROM products where QuantityOnHand > 0;
