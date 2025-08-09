@@ -1,1 +1,0 @@
-select SKU, WarehouseId, Description FROM products;
