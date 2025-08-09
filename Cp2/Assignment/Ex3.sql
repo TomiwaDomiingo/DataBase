@@ -1,1 +1,1 @@
-SELECT DISTINCT WarehouseID FROM products;
+select SKU, Description from INVENTORY;

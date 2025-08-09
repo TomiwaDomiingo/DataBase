@@ -1,3 +1,3 @@
-SELECT SKU, SKU_Description, WarehouseID, QuantityOnHand
-FROM products
-WHERE QuantityOnHand > 1 AND QuantityOnHand < 10;
+SELECT SKU, SKUDescription, WarehouseID FROM inventory 
+WHERE QuantityOnHand = 0 OR QuantityOnOrder = 0 ORDER BY WarehouseID ASC, SKU DESC;
+

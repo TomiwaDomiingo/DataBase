@@ -1,4 +1,3 @@
-SELECT SKU, SKU_Description, WarehouseID
-FROM products
-WHERE QuantityOnHand = 0 OR QuantityOnOrder = 0
-ORDER BY SKU DESC, WarehouseID ASC;
+SELECT SKU, SKUDescription, WarehouseID FROM inventory 
+WHERE QuantityOnHand = 0 OR QuantityOnOrder > 0 ORDER BY QuantityOnHand DESC;
+

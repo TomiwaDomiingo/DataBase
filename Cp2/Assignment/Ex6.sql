@@ -1,1 +1,1 @@
-select * from products;
+select SKU, WarehouseID, Description from INVENTORY;

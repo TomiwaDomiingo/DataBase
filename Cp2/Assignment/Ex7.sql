@@ -1,1 +1,1 @@
-select * from products where QuantityOnHnad < 0;
+select * from INVENTORY;

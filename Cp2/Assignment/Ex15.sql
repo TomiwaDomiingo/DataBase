@@ -1,3 +1,3 @@
-SELECT DISTINCT SKU, SKU_Description
-FROM products
-WHERE SKU_Description LIKE '__d%';
+SELECT SKU, SKUDescription FROM inventory
+ WHERE SKU LIKE 'Ha%NotreDame';
+

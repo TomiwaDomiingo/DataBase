@@ -1,1 +1,1 @@
-select * FROM products where QuantityOnHand > 0;
+select distinct WarehouseID from INVENTORY;

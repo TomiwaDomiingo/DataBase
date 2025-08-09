@@ -1,5 +1,3 @@
-SELECT WarehouseID, SUM(QuantityOnHand) AS TotalItemsOnHand
-FROM Products
-GROUP BY WarehouseID
-HAVING SUM(QuantityOnHand) >= 3
-ORDER BY TotalItemsOnHand DESC;
+SELECT SKU, SKUDescription, QuantityOnHand FROM inventory
+ WHERE QuantityOnHand IS NULL;
+

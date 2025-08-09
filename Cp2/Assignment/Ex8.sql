@@ -1,1 +1,3 @@
-select SKU, SKUDescription from products WHERE QuantityOnHand = 0;
+select SKU, SKU_Description
+from INVENTORY
+where QuantityOnHand = 0;

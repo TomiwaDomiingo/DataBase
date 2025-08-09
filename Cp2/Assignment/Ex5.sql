@@ -1,1 +1,1 @@
-select SKU, WarehouseId, Description FROM products;
+select * from INVENTORY where QuantityOnHand > 0;
