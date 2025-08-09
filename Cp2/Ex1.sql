@@ -1,1 +1,0 @@
-SELECT SKU, DESCRIPTION FROM products;
